@@ -1,0 +1,27 @@
+#air-condition{
+    color: rgb(186, 186, 186);
+    padding: 2rem;
+}
+#air-cond-upper-cont-title{
+    margin-bottom: 3vh;
+}
+#air-cond-lower-cont{
+    display: grid;
+    /* padding: 1rem; */
+    grid-template: 1fr 1fr / 1fr 1fr;
+    height: 90%;
+}
+.air-condition>h5{
+    display: flex;
+    align-items: center;
+}
+.air-condition{
+    display: flex;
+    flex-direction: column;
+}
+.air-condition>p{
+    margin-left: 8%;
+}
+#air-cond-upper-cont{
+    height: 10%;
+}

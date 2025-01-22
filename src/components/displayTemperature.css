@@ -1,0 +1,30 @@
+#temp-display {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+
+}
+.leftTempDisplay {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightTempDisplay {
+  padding-right: 20vw;
+  display: flex;
+  align-items: center;
+}
+#temp {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+#cityName {
+  font-size: 2rem;
+}
+#rainChance {
+  color: rgb(186, 186, 186);
+}
+#tempImage {
+  height: 60%;
+}

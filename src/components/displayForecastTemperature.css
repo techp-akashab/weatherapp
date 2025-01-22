@@ -1,0 +1,22 @@
+#future-forecast{
+    color: rgb(186, 186, 186);
+    padding: 2rem;
+}
+.single-day-forecast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#forecast-lower-cont
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.forecast-description{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}

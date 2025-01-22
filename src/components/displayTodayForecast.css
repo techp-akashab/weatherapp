@@ -1,0 +1,28 @@
+#today-forecast {
+  display: flex;
+  flex-direction: column;
+  color: rgb(186, 186, 186);
+  padding: 2rem;
+
+}
+#forecastContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+#todayForecastTitle {
+  margin-bottom: 3vh;
+}
+.tempImage {
+  /* height: 5vh; */
+}
+.todayForecastCont {
+  border-right: 1px solid rgb(186, 186, 186);
+  display: flex;
+  padding-right: 2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+#lastOne {
+  border: none;
+}
